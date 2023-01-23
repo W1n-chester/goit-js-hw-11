@@ -60,7 +60,7 @@ async function loadMoreQuery(evt) {
   await serverRequest(customRequest, page)
     .then(data => {
       // проверка на конец колекции
-      if (data.hits.length <= 40) {
+      if (data.hits.length < 40) {
         refs.loadMoreBtn.classList.add('is-hidden');
         Notify.info(
           `"We're sorry, but you've reached the end of search results.`
