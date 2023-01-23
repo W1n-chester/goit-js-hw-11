@@ -6,7 +6,7 @@ export async function serverRequest(customRequest, page) {
     const fulUrl = `${MAIN_URL}?key=${KEY}&q=${customRequest}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=40`;
     const respons = await axios.get(fulUrl)
     const data = respons.data
-    console.log(data)
+    // console.log(data)
 
     return data
    
