@@ -15,3 +15,41 @@
 .is-hidden {
     display: none;
 }
+.gallery{
+  margin-top: 70px;
+}
+.gallery {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+.photo-card {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06); 
+}
+.info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.load-more{
+  display: flex;
+  margin: 0 auto;
+
+}
+.is-hidden {
+    display: none;
+}
