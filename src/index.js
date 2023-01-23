@@ -18,7 +18,7 @@ let page = 1;
 let customRequest = '';
 refs.form.addEventListener('submit', submitQuery);
 refs.loadMoreBtn.addEventListener('click', loadMoreQuery);
-// refs.loadMoreBtn.addEventListener('click', onLoadMoreBtnClick);
+
 // ПЕРВЫЙ ЗАПРОС
 async function submitQuery(evt) {
   refs.loadMoreBtn.classList.add('is-hidden');
